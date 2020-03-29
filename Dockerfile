@@ -12,7 +12,7 @@ MAINTAINER hihouhou < hihouhou@hihouhou.com >
 ENV GOROOT /usr/local/go
 ENV GOPATH /opt/go-callisto
 ENV PATH $GOPATH/bin:$GOROOT/bin:$PATH
-ENV GO_CALLISTO_VERSION 1.1.0
+ENV GO_CALLISTO_VERSION 1.2
 
 # Update & install packages for go-callisto dep
 RUN apt-get update && \

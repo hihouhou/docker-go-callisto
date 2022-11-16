@@ -17,7 +17,7 @@ ENV GO_VERSION 1.18.3
 
 # Update & install packages for go-callisto dep
 RUN apt-get update && \
-    apt-get install -y wget git make build-essential
+    apt-get install -y wget git make build-essential curl jq
 
 WORKDIR /opt/go-callisto
 

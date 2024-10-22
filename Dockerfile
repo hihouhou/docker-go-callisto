@@ -12,7 +12,7 @@ LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 ENV GOROOT=/usr/local/go
 ENV GOPATH=/opt/go-callisto
 ENV PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-ENV GO_CALLISTO_VERSION=2.0.0-Release
+ENV GO_CALLISTO_VERSION=2.0.1-Release
 ENV GO_VERSION=1.18.3
 
 # Update & install packages for go-callisto dep
